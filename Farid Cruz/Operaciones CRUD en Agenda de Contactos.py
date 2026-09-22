@@ -19,6 +19,7 @@ agenda[agenda.index("Luis Torres")] = "Luis Mendoza"
 print(f"\nAgenda después de modificar a Luis Torres por Luis Mendoza: {agenda}") # ['Ana García', 'Luis Mendoza', 'Carlos Díaz', 'María López', 'Pedro Ruiz']
 
 # 4. Eliminar "Ana García"
-agenda.remove("Ana García") # ['Luis Mendoza', 'Carlos Díaz', 'María López', 'Pedro Ruiz']
+agenda.remove("Ana García") 
 
-print(f"\nAgenda actualizada: {agenda}")
+print(f"\nAgenda actualizada: {agenda}") # ['Luis Mendoza', 'Carlos Díaz', 'María López', 'Pedro Ruiz']
+print()

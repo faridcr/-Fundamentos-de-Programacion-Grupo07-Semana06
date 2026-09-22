@@ -1,0 +1,23 @@
+# Arreglo de notas
+notas = [15, 18, 12, 9, 17, 14, 20, 11, 16, 13]
+
+# Calculamos el promedio
+promedio = sum(notas) / len(notas)
+
+# Encontramos la nota más alta y la más baja
+nota_mayor = max(notas)
+nota_menor = min(notas)
+
+# Contamos cuántos alumnos aprobaron
+# Se considera aprobado con nota mayor o igual a 11
+aprobados = 0
+
+for nota in notas:
+    if nota >= 11:
+        aprobados += 1
+
+# Mostramos los resultados
+print("Promedio:", promedio)
+print("Nota más alta:", nota_mayor)
+print("Nota más baja:", nota_menor)
+print("Cantidad de aprobados:", aprobados)

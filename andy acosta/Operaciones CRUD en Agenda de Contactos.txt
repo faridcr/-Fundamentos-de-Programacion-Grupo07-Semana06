@@ -1,0 +1,19 @@
+# Lista inicial de contactos
+agenda = ["Ana García", "Luis Torres", "Carlos Díaz", "María López"]
+
+# 1. AGREGAR
+agenda.append("Pedro Ruiz")
+
+# 2. BUSCAR
+posicion = agenda.index("Carlos Díaz")
+print("Carlos Díaz está en la posición:", posicion)
+
+# 3. MODIFICAR
+posicion_luis = agenda.index("Luis Torres")
+agenda[posicion_luis] = "Luis Mendoza"
+
+# 4. ELIMINAR
+agenda.remove("Ana García")
+
+# Mostrar resultado final
+print("Agenda final:", agenda)
